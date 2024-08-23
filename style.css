@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Tungsten-Bold, sans-serif;
+}
+header {
+    background-color: black;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.btn {
+    display: flex;
+    gap: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+    text-transform: uppercase;
+    :hover {
+        background-color: grey;
+        color: red;
+    }
+}
+.btn1 {
+    display: flex;
+    background-color: rgb(255, 38, 0);
+    color: black;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+section {
+    background-color: black;
+    height: 1000px;
+}
+video {
+    position: absolute;
+    width: 100%;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+    position: absolute;
+}
+h1 {
+    color: white;
+}
+.btn2 {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    :hover {
+        background-color: grey;
+        color: red;
+    }
+ 
+}
+.section {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.img2 {
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+   object-position: 50% center;
+   position: absolute;
+}
+.content3 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-transform: uppercase;
+    position: absolute;
+}
+.h1 {
+font-size: 150px;
+width: 150px;
+}
+p {
+    color: white;
+}
+.btn2 {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+   :hover {
+   background-color: white;
+   color: black;
+  }
+}
+.content4 {
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+text-align: center;
+position: absolute;
+gap: 15px;
+width: 100%;
+height: 100%;
+}
+.h2 {
+    text-transform: uppercase;
+    color: white;
+}
+.p1 {
+    width: 378px;
+}
+.btn3 {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+.section4 {
+    background-image: url(./img/b9f3efa9355803cc44e4c59d3f4437cab192bec3-5120x1616.webp);
+   display: flex;
+
+}
+.content5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.h3 {
+    font-size: 150px;
+    text-transform: uppercase;
+}
+.p2 {
+    width: 533px;
+    height: 140px;
+}
+.section5 {
+    background-image: url(./img/3828b05489971b4715f673bc0e2db81f6c7afac7-5120x1616.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.h4 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 150px;
+}
+.h5 {
+    color: black;
+    text-transform: uppercase;
+}
+.p3 {
+    width: 533px;
+    height: 140px;
+    color: black;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 79px;
+    
+}
+.content7 {
+    display: flex;
+    
+    gap: 50px;
+    
+}
+.btn53 {
+    text-transform: uppercase;
+    background-color: gray;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: 500px;
+}
+.contact52 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
+.p52 {
+    width: 640px;
+    color: gray;
+    
+}
+.btn52 {
+    display: flex;
+    gap: 10px;
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
